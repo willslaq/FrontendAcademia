@@ -1,2 +1,0 @@
-# FrontendAcademia
-Created with CodeSandbox
