@@ -12,7 +12,7 @@ function Home() {
           {[...new Array(52)]
             .map(
               () =>
-                `Testando o teste testado do teste testador que irá testar este teste testante`
+                `Testando THIAGAY o teste testado do teste testador que irá testar este teste testante`
             )
             .join("\n")}
         </Box>

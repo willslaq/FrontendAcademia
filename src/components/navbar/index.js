@@ -49,16 +49,12 @@ function RolaPraCima(props) {
 
 RolaPraCima.propTypes = {
   children: PropTypes.element.isRequired,
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func
 };
 
 function NavBar(props) {
   return (
-    <React.Fragment>
+    <>
       <CssBaseline />
       <AppBar>
         <Toolbar>
@@ -69,11 +65,11 @@ function NavBar(props) {
       </AppBar>
       <Toolbar id="ancora-volta-pra-cima" />
       <RolaPraCima {...props}>
-        <Fab color="secondary" size="small" aria-label="scroll back to top">
+        <Fab color="secondary" size="small" aria-label="Rola de volta pra cima">
           <KeyboardArrowUpIcon />
         </Fab>
       </RolaPraCima>
-    </React.Fragment>
+    </>
   );
 }
 
