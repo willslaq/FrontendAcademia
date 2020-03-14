@@ -30,6 +30,7 @@ function Ranking() {
                             component="h4"
                             align="center"
                             gutterBottom
+                            className='first'
                         >
                             1º Lugar
                         </Typography>

@@ -4,3 +4,8 @@
     height: 130px;
     border-radius: 50%;
 }
+
+.first {
+    color: #c2d800;
+    text-shadow: 2px 2px #909090;
+}
